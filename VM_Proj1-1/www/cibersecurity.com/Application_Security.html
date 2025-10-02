@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Application Security | Cibersegurança</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta name="generator" content="Geany 1.36" />
+    </head>
+
+    <head>
+        <meta charset="utf-8" name="viewport" content="shrink-to-fit=no,width=device-width, initial-scale=1, " />
+
+        <link href="imagens/ua.png" rel="shortcut icon" />
+
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta name="generator" content="Geany 1.36" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="http://code.highcharts.com/highcharts.js"></script>
+        <script type="text/javascript" src="js/grafico.js"></script>
+
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Cibersegurança</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado"
+                aria-expanded="false"
+                aria-label="Alterna navegação"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html#whatis">O que é a Cibersegurança? <span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#importance">Qual a sua importância?</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                            Domínios da Cibersegurança
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Critical_Infrastructure_Security.html">Critical Infrastructure Security</a>
+                            <a class="dropdown-item" href="Network_Security.html">Network Security</a>
+                            <a class="dropdown-item" href="Application_Security.html">Application Security</a>
+                            <a class="dropdown-item" href="Cloud_Security.html">Cloud Security</a>
+                            <a class="dropdown-item" href="End-user_education.html">End-user Security</a>
+                            <a class="dropdown-item" href="Boas_praticas.html">Boas Práticas</a>
+                            <a class="dropdown-item" href="Sinais_ataque.html">Sinais de Ataque</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn" type="button" onclick=" location.href= 'about.html'">Acerca</button>
+                </form>
+            </div>
+        </nav>
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 bloco">
+                    <hr class="hr1" />
+                    <h1 align="center">Application Security</h1>
+                    <hr class="hr1" />
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 bloco-imagem">
+                    <p class="margin2" align="justify">
+                        <br />
+                        A segurança do aplicativo (AppSec) inclui todas as tarefas que introduzem um ciclo de vida de desenvolvimento de software
+                        seguro para as esquipes de desenvolvimento. Tem como objetivo final aprimorar a segurança, localizar, corrigir e prevenir
+                        problemas de segurança nos aplicativos.
+                    </p>
+                    <br />
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <center><img src="imagens/appsec20cycle.png" alt= "Ciclo de segurança das Apps "style="width: 600px" /></center>
+        
+        <div align=center>
+          <h3>AppSec Cycle</h3>
+        </div>
+        <br />
+        <br />
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 bloco-imagem">
+                    <br />
+                    <br />
+                    <div class="new2">
+                        <h3 align="center">
+                            <b>Para aumentar a segurança de um aplicativo, são efetuados vários tipos de abordagens, nomeadamente:</b>
+                        </h3>
+                    </div>
+
+                    <br />
+                    <br />
+
+                    <h5 class="margin2" align="justify">
+                        <ul>
+                            <li>
+                                <b>Revisão de design -</b> á medida que se avança no processo de desenvolvimento o custo de corrigir uma falha
+                                aumenta, portanto, de certeza que vale mais a pena fazer revisões á medida que se realiza a aplicação para descobrir
+                                erros mais cedo, corrigindo-os e evitado menos custos. Logo, fazer várias revisões de design são uma boa `política';
+                            </li>
+                            <br />
+                            <li>
+                                <b>Revisão de segurança da caixa branca ou revisão de código -</b> é uma atividade para melhorar a qualidade do
+                                software, para tal, uma ou mais pessoas reúnam-se para analisar um dado programa (lendo partes do seu código-fonte),
+                                de modo a atingir vários objetivos como melhorar a qualidade do código, encontrar defeitos, aprendizagem de
+                                conhecimento, aumentar o senso de responsabilidade mútua, encontrar melhores soluções e até mesmo em conformidade com
+                                as diretrizes de QA, padrões Internatonal Organization for Standardization/Interantional Electrotechnical Commission
+                                (ISO/IEC), principalmente para software de tráfico rodoviário/aéreo/náutico, devido de estarem em `jogo' vidas, ou
+                                dano grave ao equipamento. Mas atenção, pelos menos uma das pessoas que realizam a revisão ("revisores") não deve ser
+                                o(s) autor(es) do código;
+                            </li>
+                            <br />
+                            <li>
+                                <b>Auditoria de segurança da caixa preta -</b> utilização de um aplicativo para testá-lo quanto a vulnerabilidades de
+                                segurança, sem necessidade de código-fonte. Por exemplo, o teste de intrusão, é um método para avaliar a segurança de
+                                um sistema, simulando um ataque malicioso, tendo como objetivo encontrar alguma má configuração do sistema,
+                                exemplifli- cando, falhas no software/hardware desconhecidas e deficiência no sistema operacional.
+                            </li>
+                            <br />
+                            <li>
+                                <b>Ferramentas automatizadas -</b> Dynamic Application Security Testing/Static Application Security Testing
+                                (DAST/SAST) é um exemplo de ferramenta para testar o sistema, esta executa um teste de caixa preta (ou seja, teste de
+                                intrusão (penetration test)).
+                            </li>
+                            <br />
+                            <li>
+                                <b>Plataformas de vulnerabilidade coordenadas -</b> ou melhor, programa de recompensa de bugs, que é um acordo
+                                oferecido por muitos sites, organizações e desenvolvedores de software, com o objetivo de reconhecer e compensar
+                                aqueles que relatam bugs de seus aplicativos. Tendo também como propósito, diminuir a quantidade de pessoas que
+                                descobrem esse bug podendo até utilizá-lo para prejudicar outros utilizadores, como também a reputação da aplicação.
+                                Mas caso oferecem recompensas por relatos de bugs podem diminuir certas catástrofes, pois as pessoas relatam
+                                imediatamente o/s bug/s para tentar receber algum prestígio ou dinheiro, contribuindo assim também para a empresa
+                                melhorar o seu produto. Várias empresas/organizações entraram neste programa, como por exemplo a Mozilla, Facebook,
+                                Yahoo!, Google, Reddit, Square, Microsoft, até várias agências governamentais dos EUA, reverteram o curso da ameaça de
+                                "white hat"hackers (os hackers `bons') para convidá-los a participar de uma estrutura abrangente de divulgação de
+                                vulnerabilidade.
+                            </li>
+                            <br />
+                        </ul>
+                    </h5>
+                    <center><img src="imagens/appsec.gif" alt="gif segurança aplicações"style="width: 500px" /></center>
+                    <br />
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <br />
+        <hr class="hr2" />
+        <footer>
+            Universidade de Aveiro(2021/2022)<br />
+            Henrique Coelho, Miguel Reis ©
+            <br />
+            <br />
+        </footer>
+
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <!-- Meta Tags Necessárias -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS do Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="./css/global-style.css" />
+    <link rel="stylesheet" href="./css/navbar-style.css" />
+    <link rel="stylesheet" href="./css/about-style.css" />
+    <!-- JS Personalizado -->
+    <script src="./js/navbar.js"></script>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+    <title>Sobre</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-offset="200" data-bs-target=".navbar">
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container nav-cont">
+            <a class="navbar-brand" href="./index.html" onclick="esconder(false)"><img src="./img/logonav.png" alt=""></a>
+            <button id="toggler" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html" onclick="esconder()">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header>
+        <div class="space-navbar container text-center">
+            <div class="row justify-content-center">
+                <h1 class="title1-light mb-4">Sobre</h1>
+            </div>
+            <div class="row justify-content-center">
+                
+                <div class="col-md-3">
+                    <img class="img-circular" src="./img/moco-lindo.jpg" alt="Rodrigo Moço">
+                    <h5 class="paragraph-light text-center">Rodrigo Moço</h5>
+                    <p class="paragraph-light text-center">NºMec: 108939
+                        <br>
+                        <a class="paragraph-light text-center" href="mailto:miguelovila@ua.pt">rodrigo.miguel@ua.pt</a>
+                    </p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <img class="img-circular" src="./img/reis-lindo.jpg" alt="Miguel Reis">
+                    <h5 class="paragraph-light text-center">Miguel Reis</h5>
+                    <p class="paragraph-light text-center">NºMec: 108545
+                        <br>
+                        <a class="paragraph-light text-center" href="mailto:mreis@ua.pt">mreis@ua.pt</a>
+                    </p>
+                </div>
+            </div>
+            <br><br><br>        
+            <p class="subtitle-light justify-text">Donos oficiais e legitimos do Reis&Moço Lda. Stand de Importados (SI).</p>
+            <p class="subtitle-light justify-text"> Nosso lema : "Tudo Importado, nada Roubado"</p>
+        </div>
+    </header>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

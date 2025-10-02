@@ -1,0 +1,13 @@
+$TTL	604800
+$ORIGIN	reismoco.pt.
+@	IN	SOA	ns1.reismoco.pt.	admin.reismoco.pt.	(
+			2022123002	; Serial
+			604800		; Refresh
+			86400		; Retry
+			2419200		; Expire
+			604800)		; Negative Cache TTL
+	IN	NS	ns1.reismoco.pt.
+ns1	IN	A	198.155.198.200
+@	IN	A	198.155.198.200
+www	IN	A	198.155.198.200
+admin	IN	A	198.155.198.200

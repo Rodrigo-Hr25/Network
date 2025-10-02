@@ -1,0 +1,382 @@
+/*Navbar*/
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #005bb5 !important;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+a.navbar-brand {
+    color: white !important;
+    font-weight: bolder;
+    font-size: 20pt;
+}
+a.nav-link {
+    color: white !important;
+}
+
+.btn {
+    background-color: #005bb5;
+    color: white;
+    font-size: 23px;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn4 {
+    background-color: #005bb5;
+    color: white;
+    font-size: 20px;
+    border: #005bb5;
+}
+
+.btn4:hover {
+    color: white;
+    box-shadow: 0 0 10px 0 #005bb5 inset, 0 0 10px 4px #005bb5;
+}
+
+.navbar-brand:active {
+    transform: translateY(1px);
+}
+
+a.nav-link:hover {
+    color: black !important;
+}
+
+a.nav-link:active {
+    transform: translateY(1px);
+}
+
+/*rodape*/
+footer {
+    text-align: center;
+    font-size: 75%;
+    color: white;
+}
+
+/*texto da cloud*/
+.appear {
+    display: none;
+}
+
+/*imagens*/
+img {
+    border-radius: 5%;
+}
+/*letra*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5% !important;
+    background-color: #363636 !important;
+    text-align: justify;
+}
+
+h1 {
+    color: white !important;
+    text-align: center;
+}
+h1::selection {
+    background-color: #005bb5;
+    color: white;
+}
+
+p {
+    font-size: 16pt;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10pt;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+b {
+    font-size: 18px;
+}
+
+text.highcharts-title {
+    color: white;
+}
+li {
+    color: white;
+    font-weight: normal;
+}
+b {
+    font-weight: bolder;
+    font-size: 16pt;
+}
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+    margin-left: 30pt;
+    margin-right: 30pt;
+    margin-bottom: 15pt;
+}
+
+h5 {
+    color: white;
+    margin-left: 5%;
+    margin-bottom: 30pt;
+    margin-right: 10%;
+}
+h5::selection {
+    background-color: #005bb5;
+    color: white;
+}
+h3::selection {
+    background-color: #005bb5;
+    color: white;
+}
+
+h4 {
+    /*font-family: "Times New Roman", Times, serif;*/
+    color: white;
+}
+h4::selection {
+    background-color: #005bb5;
+    color: white;
+}
+p::selection {
+    background-color: #005bb5;
+    color: white;
+}
+
+/*propriedades do container*/
+.container {
+    position: relative;
+    width: 100%;
+}
+.bloco-imagem {
+    border: 3px solid #c5c5c5;
+    box-shadow: 0px 0px 100px 0px black;
+    border-style: ridge;
+}
+
+.bloco {
+    border: 1px solid #363636;
+    border-style: ridge;
+}
+.margin2 {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.btn2 {
+    background-color: #005bb5;
+    color: white;
+    font-size: 12pt;
+    border: #005bb5;
+    border-radius: 5%;
+    margin-left: 25%;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: #005bb5;
+}
+
+.btn3 {
+    background-color: #005bb5;
+    color: white;
+    font-size: 12pt;
+    border: #005bb5;
+    border-radius: 5%;
+    margin-left: 25%;
+}
+
+.btn3:hover {
+    background-color: white;
+    color: #005bb5;
+}
+
+.card-img-top {
+    border-radius: 0%;
+}
+
+/* imagem no container */
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+#div2 {
+    border: 3px solid white;
+    border-style: ridge;
+    border-radius: 6%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.centralizarImagem {
+    display: flex;
+    display: -webkit-flex; /* Garante compatibilidade com navegador Safari. */
+
+    justify-content: center;
+    align-items: center;
+}
+
+.new {
+    border: 10px solid #005bb5;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: 0px 0px 50px 7px #005bb5;
+}
+.new2 {
+    border: 7px solid #005bb5;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 0px 0px 50px 7px #005bb5;
+}
+.new3 {
+    border: 10px solid #005bb5;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 50px;
+    box-shadow: 0px 0px 50px 7px #005bb5;
+}
+.new4 {
+    border: 10px solid #005bb5;
+    border-radius: 6%;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: 0px 0px 50px 7px #005bb5;
+}
+
+.hr1 {
+    border: 2px solid white;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 2px black;
+}
+.hr2 {
+    border: 1px solid #005bb5;
+}
+.row {
+    margin: auto;
+}
+.col-xs-6 {
+    margin: auto;
+}
+.col-md-12 {
+    margin-left: 0%;
+    justify-content: center;
+}
+
+.card {
+    border: 7px solid #005bb5;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 0px 0px 50px 7px #005bb5;
+}
+
+/*posicao botao*/
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #5599ff;
+    color: black;
+    font-size: 70px;
+    padding: 12px 24px;
+    border: #5599ff;
+    box-shadow: 0 0 40px 40px #5599ff inset, 0 0 0 0 #000000;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container .btn:hover {
+    color: white;
+}
+
+.card-body {
+    background-color: #363636;
+}
+
+.card-title {
+    color: white !important;
+}
+.card-text {
+    color: white !important;
+    justify-content: center;
+}
+header.background {
+    background-image: url('../imagens/cybersecurity-looks-to-the-cloud-to-protect-data-at-sea.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -5%;
+}
+.titulo {
+    margin-top: -25%;
+    margin-bottom: 20%;
+}
+.setinha {
+    margin-top: -15vh;
+    margin-bottom: 5vh;
+    margin-left: 48%;
+    animation: is-bouncing 1s ease-in-out alternate infinite;
+}
+
+@keyframes is-bouncing {
+    to {
+        transform: translateY(10px);
+    }
+}
+
+.bit:before {
+    height: 100px;
+    display: block;
+    content: '';
+}
+
+.appear2 {
+    font-size: 10pt;
+    justify-content: left;
+}
+
+.contrib {
+    font-size: 10pt;
+    text-align: left !important;
+    margin-top: 15pt;
+    margin-bottom: 15pt;
+    margin-left: -20pt;
+}
+
+.webgrafia {
+    background-color: #005bb5;
+    color: white;
+    font-size: 12pt;
+    border: #005bb5;
+    border-radius: 5%;
+    margin-left: 48%;
+    margin-bottom: 5vh;
+}
+.web {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10vh;
+    padding-left: 5%;
+}
+
+.percent{
+    font-size: 12pt;
+    text-align: center !important;
+    margin-top: 15pt;
+    margin-bottom: 15pt;
+    margin-left: -20pt;
+}
